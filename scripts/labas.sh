@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 echo "Aplankas: $(basename "$(pwd)")"
-echo "Eilutes:"
+echo "Eilutės:"
 grep -n -f ../demo-raktas.txt juodrastis/pradzia.env
+echo "Spalva: ${SPALVA:-nenustatyta}"
